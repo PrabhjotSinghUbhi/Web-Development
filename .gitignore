@@ -1,0 +1,7 @@
+# Ignore all .exe files
+*.exe
+
+# Ignore the .vscode folder
+.vscode/
+
+revise.cpp
