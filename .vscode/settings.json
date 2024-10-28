@@ -1,0 +1,19 @@
+{
+    "cSpell.words": [
+        "Garg",
+        "Jaideep",
+        "Kaur",
+        "Prabhjot",
+        "Sukhdev",
+        "swaping",
+        "Taranpreet",
+        "Tarun"
+    ],
+    "code-runner.clearPreviousOutput": false,
+    "files.associations": {
+        "stdio.h": "c",
+        "array": "c",
+        "initializer_list": "c",
+        "utility": "c"
+    }
+}
