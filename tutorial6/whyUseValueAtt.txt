@@ -1,0 +1,11 @@
+If you don't use the value attribute in a radio button input, the default behavior when the form is submitted is that an empty string ("") will be sent for that radio button if it is selected. This makes it difficult to know which option the user chose, as there would be no identifiable value associated with it.
+
+When the form is submitted and one of these radio buttons is selected, the form will send gender= without any meaningful value. This is typically not useful for processing the form data and can make it harder to determine which option the user picked.
+
+To make your form data meaningful, it’s best to always use the value attribute to specify what data should be sent when the input is selected.
+
+
+
+
+
+

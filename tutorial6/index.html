@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and input Tags</title>
+</head>
+
+<body>
+    <h1>Enter your details for the position of Teaching Assistant.</h1>
+    <form action="post">
+        <div>
+            <label for="username">Enter your Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter username"  required>
+        </div>
+        <!-- <input type="text" id="username" name="username" placeholder="Enter username"> -->
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">female</label>
+        </div>
+        <label for="comment">Enter your comment</label>
+        <br>
+        <textarea name="comment" id="comment" rows="4" cols="50" autofocus></textarea>
+
+        <div>
+            <label for="veggie">Choose your favorite vegetable:</label>
+            <select name="vegetables" id="veggie">
+                <option value="carrot">Carrot</option>
+                <option value="Saag">Saag</option>
+                <option value="Cauliflower">Cauliflower</option>
+            </select>
+        </div>
+
+
+
+
+    </form>
+
+</body>
+
+</html>
